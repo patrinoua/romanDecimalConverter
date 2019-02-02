@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Decimal - Roman Converter</title>
+  </head>
+  <body>
+
+    <h2>Simple Decimal to Roman converter</h2>
+    <div class="appContainer">
+      <div class="inOut">
+      Decimal <input type="text" name="decimal" class="decimalToRoman">
+      </div>
+      <div class="inOut">
+        Roman:
+        <span id="output">
+        </span>
+        <span id="error">
+        </span>
+      </div>
+    </div>
+
+    <div class="romanTodecimalContainer">
+      <div class="inOut">
+       Roman <input type="text" name="roman" class="romanToDecimal">
+      </div>
+      <div class="inOut">
+        Decimal:
+        <span id="outputRoman">
+        </span>
+        <span id="errorRoman">
+        </span>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="decimalToRoman.js"> </script>
+  <script src="romanTodecimal.js"> </script>
+  <script src="script.js"> </script>
+</html>
